@@ -18,7 +18,7 @@ def change_settings(PHYSICELL_SETTINGS_FILE_PATH: Path, change_part : str, chang
     # 設定を変更
     if root.find(change_part) is None:
         print(f"Warning: {change_part} not found in the XML.")
-        return  # またはエラーを投げてもよい
+        return
     root.find(change_part).text = str(change_elemement)
     
     # 変更した設定をファイルに書き込む

@@ -1,7 +1,7 @@
 import json
 import os
 
-# 設定ファイルのパス（このコードが実行されているディレクトリに保存されます）
+# 設定ファイルのパス
 settings_file = "settings.json"
 
 # 設定を保存する関数
